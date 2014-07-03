@@ -1,4 +1,6 @@
-private int taskId;
+public class Task {
+	
+	private int taskId;
 	private String data;
 	private String time;
 	private String status;
@@ -38,3 +40,6 @@ private int taskId;
 	public void setEnd (Address end) {
 		endAddress = end;
 	}
+
+
+}
