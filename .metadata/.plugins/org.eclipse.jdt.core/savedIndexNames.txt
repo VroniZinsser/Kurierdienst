@@ -1,0 +1,5 @@
+INDEX VERSION 1.126+C:\Users\Iris\Documents\Datenbank_Projekt\Kurierdienst\.metadata\.plugins\org.eclipse.jdt.core
+1284074322.index
+1363724165.index
+1017601186.index
+1178082210.index

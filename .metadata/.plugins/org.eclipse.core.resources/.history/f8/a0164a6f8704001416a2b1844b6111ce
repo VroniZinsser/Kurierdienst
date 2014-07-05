@@ -1,0 +1,39 @@
+
+public class AuftragsItem {
+	
+	private int id;
+	private String status;
+	private String date;
+	private String pickUpAddress;
+	private String dropOffAddress;
+	private String driver;
+	
+	public AuftragsItem(int id, String status, String date, String pickUpAdress, String dropOffAddress, String driver){
+		this.id = id;
+		this.status = status;
+		this.date = date;
+		this.pickUpAddress = pickUpAdress;
+		this.dropOffAddress = dropOffAddress;
+		this.driver = driver;
+	}
+	
+	private int getId(){
+		return id;
+	}
+	private String getStatus(){
+		return status;
+	}
+	private String getdate(){
+		return date;
+	}
+	private String getPickUpAddress(){
+		return pickUpAddress;
+	}
+	private String getDropOffAddress(){
+		return dropOffAddress;
+	}
+	private String getDriver(){
+		return driver;
+	}
+
+}
