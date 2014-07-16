@@ -1,3 +1,4 @@
-INDEX VERSION 1.126+C:\Users\Vroni\git\Kurierdienst\.metadata\.plugins\org.eclipse.jdt.core
-3494720317.index
-3861199498.index
+INDEX VERSION 1.126+/Users/olli_der_drummer/git/Kurier/Kurierdienst/.metadata/.plugins/org.eclipse.jdt.core
+2158937278.index
+2291536378.index
+2139806001.index

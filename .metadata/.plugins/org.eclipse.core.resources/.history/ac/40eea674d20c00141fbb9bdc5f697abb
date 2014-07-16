@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="?android:attr/listDivider"
+    android:orientation="vertical"
+    android:showDividers="middle" >
+
+    
+    
+    <TextView
+        android:id="@+id/fahrer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="20sp"
+        android:text="@string/fahrer" />
+    
+    <EditText
+        android:id="@+id/fahrer_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="@string/fahrer_id"></EditText>
+    
+    <EditText
+        android:id="@+id/fahrer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fahrer_name"></EditText>
+        
+    <EditText
+        android:id="@+id/standort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fahrer_standort"></EditText>
+    
+        <Button
+            android:id="@+id/fahrer_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/fahrer_anlegen"
+            android:textAlignment="center" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="@string/anlegen_text" />
+    
+    <RadioGroup
+        android:id="@+id/choose_pre_drinks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/erledigt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/erledigt" />
+
+        <RadioButton
+            android:id="@+id/ausstehend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="120dp" 
+            android:layout_marginTop="-32dp"  
+            android:text="@string/ausstehend" />
+
+    </RadioGroup>
+    
+    <EditText
+        android:id="@+id/auftragsnummer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/auftragsnummer"></EditText>
+    
+    <EditText
+        android:id="@+id/datum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/datum"></EditText>
+        
+    <EditText
+        android:id="@+id/uhrzeit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/uhrzeit"></EditText>
+        
+    <EditText
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/start"></EditText>
+        
+   	<EditText
+        android:id="@+id/ziel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ziel"></EditText>
+ 
+
+
+
+
+    <Button
+            android:id="@+id/lets_go"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/anlegen"
+            android:textAlignment="center" />
+ 
+
+</LinearLayout>
+</ScrollView>

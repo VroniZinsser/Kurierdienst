@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kurierdienst</string>
+    <string name="action_settings">Settings</string>
+    <string name="anlegen_text">Auftrag anlegen</string>
+    <string name="erledigt">Erledigt</string>
+    <string name="ausstehend">Ausstehend</string>
+    <string name="anlegen">Ab dafür</string>
+    <string name="datum">Datum</string>
+    <string name="uhrzeit">Uhrzeit</string>
+    <string name="auftragsnummer">Auftragsnummer</string>
+    <string name="start">Startadresse</string>
+    <string name="ziel">Zieladresse</string>
+
+</resources>
